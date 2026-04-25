@@ -1,0 +1,1 @@
+{"name":"ZCL_PO_STATUS_HANDLER","type":"CLAS","package":"ZMM_PO_PROCESSING","changed":"20251001","author":"MM_TEAM","description":"PO status workflow handler - enforces OP->SN->LS->GR->IV->CL transitions"}
