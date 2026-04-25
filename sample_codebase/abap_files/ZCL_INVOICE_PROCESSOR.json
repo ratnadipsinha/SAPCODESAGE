@@ -1,1 +1,0 @@
-{"name":"ZCL_INVOICE_PROCESSOR","type":"CLAS","package":"ZFI_INVOICE","changed":"20251115","author":"FI_TEAM","description":"Invoice validation and posting via BAPI_INCOMINGINVOICE_CREATE with duplicate + tolerance checks"}

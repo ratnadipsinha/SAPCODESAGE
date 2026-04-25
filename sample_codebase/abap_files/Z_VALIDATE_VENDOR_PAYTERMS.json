@@ -1,1 +1,0 @@
-{"name":"Z_VALIDATE_VENDOR_PAYTERMS","type":"FM","package":"ZFI_VENDOR","changed":"20250815","author":"FI_TEAM","description":"Validates payment term key against T052 and LFB1 vendor company data"}
