@@ -185,4 +185,4 @@ Latency:   2,841 ms
 
 ---
 
-*Built by Ratnadip Sinha · SAP Architect & AI Engineer*
+*Built by Ratnadip Sinha *
