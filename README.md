@@ -181,7 +181,7 @@ Latency:   2,841 ms
 ## Related
 
 - Architecture diagrams: `diagram_artifacts/`
-- SAP Community blog: [[CodeSage for SAP — AI-Powered ABAP Knowledge](https://community.sap.com/t5/technology-blogs-by-members/codesage-for-sap-ai-powered-abap-knowledge/ba-p/14118544)](https://community.sap.com/t5/technology-blog-posts-by-members/codesage-for-sap-building-an-ai-powered-abap-knowledge-platform-from/ba-p/14361984)
+- SAP Community blog: [CodeSage for SAP — Building an AI-Powered ABAP Knowledge Platform](https://community.sap.com/t5/technology-blog-posts-by-members/codesage-for-sap-building-an-ai-powered-abap-knowledge-platform-from/ba-p/14361984)
 
 ---
 
