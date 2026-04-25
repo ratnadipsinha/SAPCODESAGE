@@ -1,0 +1,28 @@
+# serving-template.yaml — apply once via SAP AI Launchpad or AI Core REST API
+apiVersion: ai.sap.com/v1alpha1
+kind: ServingTemplate
+metadata:
+  name: codesage-llama3
+  labels:
+    scenarios.ai.sap.com/id: codesage-scenario
+    ai.sap.com/version: "1.0"
+spec:
+  template:
+    metadata:
+      labels:
+        ai.sap.com/deploymentSanitizedName: codesage-llama3
+    spec:
+      imagePullSecrets:
+        - name: <your-registry-secret>   # Docker registry credentials in AI Core
+      containers:
+        - name: kserve-container
+          image: <your-registry>/codesage-llama3:v1
+          ports:
+            - name: http1
+              containerPort: 8080
+              protocol: TCP
+          resources:
+            requests:
+              memory: "20Gi"
+            limits:
+              nvidia.com/gpu: "1"       # SAP AI Core allocates a managed GPU

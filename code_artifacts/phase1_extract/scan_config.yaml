@@ -1,0 +1,22 @@
+sap:
+  host:     "your-sap-host"       # SAP application server hostname
+  sysnr:    "00"                  # System number
+  client:   "100"                 # Client
+  user:     "CODESAGE_RFC"        # Read-only RFC user (no dialog logon needed)
+  password: "${SAP_RFC_PASSWORD}" # Set as environment variable — never in plain text
+
+output_dir: "./abap_files"
+
+namespaces:                        # Only extract custom objects
+  - "Z*"
+  - "Y*"
+
+object_types:
+  - PROG    # Programs / Reports
+  - FUGR    # Function Groups (contains Function Modules)
+  - CLAS    # ABAP Classes
+  - INTF    # ABAP Interfaces
+  - ENHO    # BAdI / Enhancement Implementations
+
+exclude_packages:
+  - "$TMP"  # Local dev objects — not part of the official codebase
