@@ -22,7 +22,7 @@ Ask a plain-English question. Get a precise, cited answer — sourced directly f
 │  Phase 1          Phase 2          Phase 3          Phase 4     │
 │  Scan & Extract → Index & Embed → Fine-Tune BYOM → Runtime BTP  │
 │  pyrfc / RFC      ChromaDB         QLoRA LLaMA-3   SAP BTP CAP  │
-│  Z*/Y* objects    nomic-embed      SAP AI Core      Fiori / API  │
+│  Z*/Y* objects    nomic-embed      SAP AI Core      Fiori / API │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
